@@ -22,7 +22,12 @@
     <br>
 
     <label for="aadhar"><b>Aadhar Number</b></label>
-    <input type="text" placeholder="Enter Aadhar Number" name="aadhar" id="aadhar" required>
+    <input type="text" placeholder="Enter Aadhar Number" name="aadhar" id="aadha" required>
+    <br>
+
+
+    <label for="mother"><b>Mother Name</b></label>
+    <input type="text" placeholder="Mother Name" name="mother" id="mother" required>
     <br>
 
 
