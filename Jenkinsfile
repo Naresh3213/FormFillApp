@@ -4,11 +4,6 @@ pipeline {
         PATH = "/opt/maven/bin:$PATH"
     }
     stages {
-        stage('git clone') {
-            steps {
-                git url: 'https://github.com/Naresh3213/FormFillApp.git', branch: 'main'
-            }
-        }
         stage('build') {
             steps {
                 sh 'mvn clean install'
